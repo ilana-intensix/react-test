@@ -1,0 +1,369 @@
+ http://localhost:8081/
+webpack result is served from /
+content is served from /home/ilana/git/react-test
+Hash: 5d321103c3ab256a9351
+Version: webpack 1.13.3
+Time: 2303ms
+chunk    {0} vendor.bundle.js (vendor) 0 bytes [rendered]
+chunk    {1} index.js (main) 974 kB {0} [rendered]
+    [0] multi main 40 bytes {1} [built]
+    [1] ./~/fbjs/lib/invariant.js 1.49 kB {1} [built]
+    [2] ./~/fbjs/lib/warning.js 2.1 kB {1} [built]
+    [3] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/inherits/inherits_browser.js 672 bytes {1} [built]
+    [4] ./~/react-dom/lib/reactProdInvariant.js 1.24 kB {1} [built]
+    [5] ./~/object-assign/index.js 1.99 kB {1} [built]
+    [6] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/debug/browser.js 4.07 kB {1} [built]
+    [7] ./~/react-dom/lib/ReactDOMComponentTree.js 6.16 kB {1} [built]
+    [8] ./~/fbjs/lib/ExecutionEnvironment.js 1.06 kB {1} [built]
+    [9] ./~/react/react.js 56 bytes {1} [built]
+   [10] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/event/emitter.js 1.27 kB {1} [built]
+   [11] ./~/react/lib/ReactComponentTreeHook.js 10.3 kB {1} [built]
+   [12] ./~/react-dom/lib/ReactInstrumentation.js 601 bytes {1} [built]
+   [13] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/url.js 975 bytes {1} [built]
+   [14] ./~/fbjs/lib/emptyFunction.js 1.08 kB {1} [built]
+   [15] ./~/react-dom/lib/ReactUpdates.js 9.53 kB {1} [built]
+   [16] ./~/react/lib/ReactCurrentOwner.js 623 bytes {1} [built]
+   [17] ./~/classnames/index.js 1.1 kB {1} [built]
+   [18] ./~/react-dom/lib/SyntheticEvent.js 9.18 kB {1} [built]
+   [19] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/json3/lib/json3.js 43.3 kB {1} [built]
+   [20] ./~/react-css-themr/lib/index.js 717 bytes {1} [built]
+   [21] ./~/react-dom/lib/DOMProperty.js 8.24 kB {1} [built]
+   [22] ./~/react-toolbox/lib/identifiers.js 1.27 kB {1} [built]
+   [23] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/event.js 2 kB {1} [built]
+   [24] ./~/react-dom/lib/PooledClass.js 3.68 kB {1} [built]
+   [25] ./~/react/lib/ReactElement.js 11.2 kB {1} [built]
+   [26] ./~/react/lib/reactProdInvariant.js 1.24 kB {1} [built]
+   [27] ./~/react-dom/lib/DOMLazyTree.js 3.71 kB {1} [built]
+   [28] ./~/react-dom/lib/ReactReconciler.js 6.21 kB {1} [built]
+   [29] ./~/react/lib/React.js 2.69 kB {1} [built]
+   [30] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/lib/ajax-based.js 1.31 kB {1} [built]
+   [31] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/random.js 746 bytes {1} [built]
+   [32] ./~/fbjs/lib/emptyObject.js 458 bytes {1} [built]
+   [33] ./~/react-dom/lib/EventPluginHub.js 8.28 kB {1} [built]
+   [34] ./~/react-dom/lib/EventPropagators.js 5.09 kB {1} [built]
+   [35] ./~/react-dom/lib/ReactInstanceMap.js 1.22 kB {1} [built]
+   [36] ./~/react-dom/lib/SyntheticUIEvent.js 1.57 kB {1} [built]
+   [37] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/sender/xhr-local.js 352 bytes {1} [built]
+   [38] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/browser.js 560 bytes {1} [built]
+   [39] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/iframe.js 5.06 kB {1} [built]
+   [40] (webpack)/~/node-libs-browser/~/process/browser.js 5.3 kB {1} [built]
+   [41] ./~/react-dom/lib/EventPluginRegistry.js 9.75 kB {1} [built]
+   [42] ./~/react-dom/lib/ReactBrowserEventEmitter.js 12.6 kB {1} [built]
+   [43] ./~/react-dom/lib/SyntheticMouseEvent.js 2.14 kB {1} [built]
+   [44] ./~/react-dom/lib/Transaction.js 9.45 kB {1} [built]
+   [45] ./~/react-dom/lib/escapeTextContentForBrowser.js 3.43 kB {1} [built]
+   [46] ./~/react-dom/lib/setInnerHTML.js 3.86 kB {1} [built]
+   [47] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/receiver/xhr.js 1.58 kB {1} [built]
+   [48] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/sender/xhr-cors.js 343 bytes {1} [built]
+   [49] ./~/fbjs/lib/shallowEqual.js 1.74 kB {1} [built]
+   [50] ./~/react-dom/lib/DOMChildrenOperations.js 7.67 kB {1} [built]
+   [51] ./~/react-dom/lib/DOMNamespaces.js 505 bytes {1} [built]
+   [52] ./~/react-dom/lib/EventPluginUtils.js 7.95 kB {1} [built]
+   [53] ./~/react-dom/lib/KeyEscapeUtils.js 1.29 kB {1} [built]
+   [54] ./~/react-dom/lib/LinkedValueUtils.js 5.15 kB {1} [built]
+   [55] ./~/react-dom/lib/ReactComponentEnvironment.js 1.3 kB {1} [built]
+   [56] ./~/react-dom/lib/ReactErrorUtils.js 2.25 kB {1} [built]
+   [57] ./~/react-dom/lib/ReactUpdateQueue.js 9.01 kB {1} [built]
+   [58] ./~/react-dom/lib/createMicrosoftUnsafeLocalFunction.js 810 bytes {1} [built]
+   [59] ./~/react-dom/lib/getEventCharCode.js 1.5 kB {1} [built]
+   [60] ./~/react-dom/lib/getEventModifierState.js 1.23 kB {1} [built]
+   [61] ./~/react-dom/lib/getEventTarget.js 1.01 kB {1} [built]
+   [62] ./~/react-dom/lib/isEventSupported.js 1.94 kB {1} [built]
+   [63] ./~/react-dom/lib/shouldUpdateReactComponent.js 1.4 kB {1} [built]
+   [64] ./~/react-dom/lib/validateDOMNesting.js 13.7 kB {1} [built]
+   [65] ./~/react-flexbox-grid/lib/createProps.js 383 bytes {1} [built]
+   [66] ./~/react/lib/ReactComponent.js 4.61 kB {1} [built]
+   [67] ./~/react/lib/ReactNoopUpdateQueue.js 3.36 kB {1} [built]
+   [68] ./~/react/lib/ReactPropTypeLocationNames.js 572 bytes {1} [built]
+   [69] ./~/react/lib/canDefineProperty.js 661 bytes {1} [built]
+   [70] ./~/react/lib/getIteratorFn.js 1.12 kB {1} [built]
+   [71] ./~/flexboxgrid/dist/flexboxgrid.css 1.79 kB {1} [built] [1 error]
+   [72] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/event/event.js 477 bytes {1} [built]
+   [73] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/lib/iframe-wrap.js 981 bytes {1} [built]
+   [74] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/sender/xdr.js 2.46 kB {1} [built]
+   [75] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/object.js 532 bytes {1} [built]
+   [76] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/url-parse/index.js 9.92 kB {1} [built]
+   [78] ./~/fbjs/lib/EventListener.js 2.67 kB {1} [built]
+   [79] ./~/fbjs/lib/focusNode.js 704 bytes {1} [built]
+   [80] ./~/fbjs/lib/getActiveElement.js 895 bytes {1} [built]
+   [81] ./~/react-dom/lib/CSSProperty.js 3.66 kB {1} [built]
+   [82] ./~/react-dom/lib/CallbackQueue.js 3.16 kB {1} [built]
+   [83] ./~/react-dom/lib/DOMPropertyOperations.js 7.61 kB {1} [built]
+   [84] ./~/react-dom/lib/ReactDOMComponentFlags.js 429 bytes {1} [built]
+   [85] ./~/react-dom/lib/ReactDOMSelect.js 6.81 kB {1} [built]
+   [86] ./~/react-dom/lib/ReactEmptyComponent.js 704 bytes {1} [built]
+   [87] ./~/react-dom/lib/ReactFeatureFlags.js 628 bytes {1} [built]
+   [88] ./~/react-dom/lib/ReactHostComponent.js 2.38 kB {1} [built]
+   [89] ./~/react-dom/lib/ReactInputSelection.js 4.27 kB {1} [built]
+   [90] ./~/react-dom/lib/ReactMount.js 25.5 kB {1} [built]
+   [91] ./~/react-dom/lib/ReactNodeTypes.js 1.02 kB {1} [built]
+   [92] ./~/react-dom/lib/ReactPropTypesSecret.js 442 bytes {1} [built]
+   [93] ./~/react-dom/lib/ViewportMetrics.js 606 bytes {1} [built]
+   [94] ./~/react-dom/lib/accumulateInto.js 1.69 kB {1} [built]
+   [95] ./~/react-dom/lib/forEachAccumulated.js 855 bytes {1} [built]
+   [96] ./~/react-dom/lib/getHostComponentFromComposite.js 740 bytes {1} [built]
+   [97] ./~/react-dom/lib/getTextContentAccessor.js 955 bytes {1} [built]
+   [98] ./~/react-dom/lib/instantiateReactComponent.js 4.79 kB {1} [built]
+   [99] ./~/react-dom/lib/isTextInputElement.js 1.04 kB {1} [built]
+  [100] ./~/react-dom/lib/setTextContent.js 1.45 kB {1} [built]
+  [101] ./~/react-dom/lib/traverseAllChildren.js 7.04 kB {1} [built]
+  [102] ./~/react-toolbox/lib/avatar/Avatar.js 3.06 kB {1} [built]
+  [103] ./~/react-toolbox/lib/font_icon/FontIcon.js 1.66 kB {1} [built]
+  [104] ./~/react/lib/ReactElementSymbol.js 622 bytes {1} [built]
+  [105] ./~/react/lib/ReactElementValidator.js 7.95 kB {1} [built]
+  [106] ./~/react/lib/ReactPropTypesSecret.js 442 bytes {1} [built]
+  [107] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/event/eventtarget.js 1.85 kB {1} [built]
+  [108] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/info-ajax.js 1.03 kB {1} [built]
+  [109] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/info-iframe-receiver.js 791 bytes {1} [built]
+  [110] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/location.js 177 bytes {1} [built]
+  [111] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/browser/abstract-xhr.js 4.8 kB {1} [built]
+  [112] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/browser/eventsource.js 37 bytes {1} [built]
+  [113] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/eventsource.js 766 bytes {1} [built]
+  [114] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/htmlfile.js 710 bytes {1} [built]
+  [115] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/iframe.js 3.83 kB {1} [built]
+  [116] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/lib/sender-receiver.js 1.15 kB {1} [built]
+  [117] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/xdr-streaming.js 984 bytes {1} [built]
+  [118] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/xhr-polling.js 894 bytes {1} [built]
+  [119] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/version.js 26 bytes {1} [built]
+  [120] (webpack)/buildin/module.js 241 bytes {1} [built]
+  [121] ./hello.jsx 3.79 kB {1} [built]
+  [122] ./main.js 481 bytes {1} [built]
+  [123] ./~/fbjs/lib/camelize.js 708 bytes {1} [built]
+  [124] ./~/fbjs/lib/camelizeStyleName.js 1 kB {1} [built]
+  [125] ./~/fbjs/lib/containsNode.js 1.05 kB {1} [built]
+  [126] ./~/fbjs/lib/createArrayFromMixed.js 4.11 kB {1} [built]
+  [127] ./~/fbjs/lib/createNodesFromMarkup.js 2.66 kB {1} [built]
+  [128] ./~/fbjs/lib/getMarkupWrap.js 3.04 kB {1} [built]
+  [129] ./~/fbjs/lib/getUnboundedScrollPosition.js 1.05 kB {1} [built]
+  [130] ./~/fbjs/lib/hyphenate.js 800 bytes {1} [built]
+  [131] ./~/fbjs/lib/hyphenateStyleName.js 974 bytes {1} [built]
+  [132] ./~/fbjs/lib/isNode.js 693 bytes {1} [built]
+  [133] ./~/fbjs/lib/isTextNode.js 605 bytes {1} [built]
+  [134] ./~/fbjs/lib/memoizeStringOnly.js 698 bytes {1} [built]
+  [135] ./~/fbjs/lib/performance.js 588 bytes {1} [built]
+  [136] ./~/fbjs/lib/performanceNow.js 845 bytes {1} [built]
+  [137] ./~/invariant/browser.js 1.52 kB {1} [built]
+  [138] ./~/react-css-themr/lib/components/ThemeProvider.js 2.75 kB {1} [built]
+  [139] ./~/react-css-themr/lib/components/themr.js 11 kB {1} [built]
+  [140] ./~/react-css-themr/lib/utils/themr-shape.js 203 bytes {1} [built]
+  [141] ./~/react-dom/index.js 59 bytes {1} [built]
+  [142] ./~/react-dom/lib/ARIADOMPropertyConfig.js 1.82 kB {1} [built]
+  [143] ./~/react-dom/lib/AutoFocusUtils.js 599 bytes {1} [built]
+  [144] ./~/react-dom/lib/BeforeInputEventPlugin.js 13.3 kB {1} [built]
+  [145] ./~/react-dom/lib/CSSPropertyOperations.js 6.87 kB {1} [built]
+  [146] ./~/react-dom/lib/ChangeEventPlugin.js 11.1 kB {1} [built]
+  [147] ./~/react-dom/lib/Danger.js 2.24 kB {1} [built]
+  [148] ./~/react-dom/lib/DefaultEventPluginOrder.js 1.08 kB {1} [built]
+  [149] ./~/react-dom/lib/EnterLeaveEventPlugin.js 3.16 kB {1} [built]
+  [150] ./~/react-dom/lib/FallbackCompositionState.js 2.43 kB {1} [built]
+  [151] ./~/react-dom/lib/HTMLDOMPropertyConfig.js 5.44 kB {1} [built]
+  [152] ./~/react-dom/lib/ReactChildReconciler.js 6.11 kB {1} [built]
+  [153] ./~/react-dom/lib/ReactComponentBrowserEnvironment.js 906 bytes {1} [built]
+  [154] ./~/react-dom/lib/ReactCompositeComponent.js 35.2 kB {1} [built]
+  [155] ./~/react-dom/lib/ReactDOM.js 5.14 kB {1} [built]
+  [156] ./~/react-dom/lib/ReactDOMComponent.js 38.2 kB {1} [built]
+  [157] ./~/react-dom/lib/ReactDOMContainerInfo.js 967 bytes {1} [built]
+  [158] ./~/react-dom/lib/ReactDOMEmptyComponent.js 1.9 kB {1} [built]
+  [159] ./~/react-dom/lib/ReactDOMFeatureFlags.js 439 bytes {1} [built]
+  [160] ./~/react-dom/lib/ReactDOMIDOperations.js 956 bytes {1} [built]
+  [161] ./~/react-dom/lib/ReactDOMInput.js 12 kB {1} [built]
+  [162] ./~/react-dom/lib/ReactDOMInvalidARIAHook.js 3.14 kB {1} [built]
+  [163] ./~/react-dom/lib/ReactDOMNullInputValuePropHook.js 1.37 kB {1} [built]
+  [164] ./~/react-dom/lib/ReactDOMOption.js 3.69 kB {1} [built]
+  [165] ./~/react-dom/lib/ReactDOMSelection.js 6.78 kB {1} [built]
+  [166] ./~/react-dom/lib/ReactDOMTextComponent.js 5.82 kB {1} [built]
+  [167] ./~/react-dom/lib/ReactDOMTextarea.js 6.22 kB {1} [built]
+  [168] ./~/react-dom/lib/ReactDOMTreeTraversal.js 3.72 kB {1} [built]
+  [169] ./~/react-dom/lib/ReactDOMUnknownPropertyHook.js 4.32 kB {1} [built]
+  [170] ./~/react-dom/lib/ReactDebugTool.js 11.7 kB {1} [built]
+  [171] ./~/react-dom/lib/ReactDefaultBatchingStrategy.js 1.88 kB {1} [built]
+  [172] ./~/react-dom/lib/ReactDefaultInjection.js 3.5 kB {1} [built]
+  [173] ./~/react-dom/lib/ReactElementSymbol.js 622 bytes {1} [built]
+  [174] ./~/react-dom/lib/ReactEventEmitterMixin.js 959 bytes {1} [built]
+  [175] ./~/react-dom/lib/ReactEventListener.js 5.3 kB {1} [built]
+  [176] ./~/react-dom/lib/ReactHostOperationHistoryHook.js 736 bytes {1} [built]
+  [177] ./~/react-dom/lib/ReactInjection.js 1.2 kB {1} [built]
+  [178] ./~/react-dom/lib/ReactInvalidSetStateWarningHook.js 984 bytes {1} [built]
+  [179] ./~/react-dom/lib/ReactMarkupChecksum.js 1.47 kB {1} [built]
+  [180] ./~/react-dom/lib/ReactMultiChild.js 14.6 kB {1} [built]
+  [181] ./~/react-dom/lib/ReactOwner.js 3.53 kB {1} [built]
+  [182] ./~/react-dom/lib/ReactPropTypeLocationNames.js 572 bytes {1} [built]
+  [183] ./~/react-dom/lib/ReactReconcileTransaction.js 5.26 kB {1} [built]
+  [184] ./~/react-dom/lib/ReactRef.js 2.56 kB {1} [built]
+  [185] ./~/react-dom/lib/ReactServerRenderingTransaction.js 2.29 kB {1} [built]
+  [186] ./~/react-dom/lib/ReactServerUpdateQueue.js 4.83 kB {1} [built]
+  [187] ./~/react-dom/lib/ReactVersion.js 350 bytes {1} [built]
+  [188] ./~/react-dom/lib/SVGDOMPropertyConfig.js 7.32 kB {1} [built]
+  [189] ./~/react-dom/lib/SelectEventPlugin.js 6.06 kB {1} [built]
+  [190] ./~/react-dom/lib/SimpleEventPlugin.js 8.28 kB {1} [built]
+  [191] ./~/react-dom/lib/SyntheticAnimationEvent.js 1.21 kB {1} [built]
+  [192] ./~/react-dom/lib/SyntheticClipboardEvent.js 1.17 kB {1} [built]
+  [193] ./~/react-dom/lib/SyntheticCompositionEvent.js 1.1 kB {1} [built]
+  [194] ./~/react-dom/lib/SyntheticDragEvent.js 1.07 kB {1} [built]
+  [195] ./~/react-dom/lib/SyntheticFocusEvent.js 1.07 kB {1} [built]
+  [196] ./~/react-dom/lib/SyntheticInputEvent.js 1.09 kB {1} [built]
+  [197] ./~/react-dom/lib/SyntheticKeyboardEvent.js 2.71 kB {1} [built]
+  [198] ./~/react-dom/lib/SyntheticTouchEvent.js 1.28 kB {1} [built]
+  [199] ./~/react-dom/lib/SyntheticTransitionEvent.js 1.23 kB {1} [built]
+  [200] ./~/react-dom/lib/SyntheticWheelEvent.js 1.94 kB {1} [built]
+  [201] ./~/react-dom/lib/adler32.js 1.19 kB {1} [built]
+  [202] ./~/react-dom/lib/checkReactTypeSpec.js 4.21 kB {1} [built]
+  [203] ./~/react-dom/lib/dangerousStyleValue.js 3.02 kB {1} [built]
+  [204] ./~/react-dom/lib/findDOMNode.js 2.46 kB {1} [built]
+  [205] ./~/react-dom/lib/flattenChildren.js 2.77 kB {1} [built]
+  [206] ./~/react-dom/lib/getEventKey.js 2.87 kB {1} [built]
+  [207] ./~/react-dom/lib/getIteratorFn.js 1.12 kB {1} [built]
+  [208] ./~/react-dom/lib/getNextDebugID.js 437 bytes {1} [built]
+  [209] ./~/react-dom/lib/getNodeForCharacterOffset.js 1.62 kB {1} [built]
+  [210] ./~/react-dom/lib/getVendorPrefixedEventName.js 2.87 kB {1} [built]
+  [211] ./~/react-dom/lib/quoteAttributeValueForBrowser.js 700 bytes {1} [built]
+  [212] ./~/react-dom/lib/renderSubtreeIntoContainer.js 422 bytes {1} [built]
+  [213] ./~/react-flexbox-grid/lib/components/Col.js 1.84 kB {1} [built]
+  [214] ./~/react-flexbox-grid/lib/components/Grid.js 1.06 kB {1} [built]
+  [215] ./~/react-flexbox-grid/lib/components/Row.js 1.79 kB {1} [built]
+  [216] ./~/react-flexbox-grid/lib/index.js 544 bytes {1} [built]
+  [217] ./~/react-toolbox/lib/avatar/index.js 754 bytes {1} [built] [1 error]
+  [218] ./~/react-toolbox/lib/card/Card.js 2.01 kB {1} [built]
+  [219] ./~/react-toolbox/lib/card/CardActions.js 1.65 kB {1} [built]
+  [220] ./~/react-toolbox/lib/card/CardMedia.js 2.88 kB {1} [built]
+  [221] ./~/react-toolbox/lib/card/CardText.js 1.73 kB {1} [built]
+  [222] ./~/react-toolbox/lib/card/CardTitle.js 3.6 kB {1} [built]
+  [223] ./~/react-toolbox/lib/card/index.js 1.56 kB {1} [built] [1 error]
+  [224] ./~/react/lib/KeyEscapeUtils.js 1.29 kB {1} [built]
+  [225] ./~/react/lib/PooledClass.js 3.68 kB {1} [built]
+  [226] ./~/react/lib/ReactChildren.js 6.19 kB {1} [built]
+  [227] ./~/react/lib/ReactClass.js 26.5 kB {1} [built]
+  [228] ./~/react/lib/ReactDOMFactories.js 5.53 kB {1} [built]
+  [229] ./~/react/lib/ReactPropTypes.js 15.8 kB {1} [built]
+  [230] ./~/react/lib/ReactPureComponent.js 1.32 kB {1} [built]
+  [231] ./~/react/lib/ReactVersion.js 350 bytes {1} [built]
+  [232] ./~/react/lib/checkReactTypeSpec.js 4.19 kB {1} [built]
+  [233] ./~/react/lib/onlyChild.js 1.34 kB {1} [built]
+  [234] ./~/react/lib/traverseAllChildren.js 7.03 kB {1} [built]
+  [235] ./~/style-loader/addStyles.js 7.15 kB {1} [built]
+  [236] /usr/local/lib/~/webpack-dev-server/client?http://localhost:8081 3.97 kB {1} [built]
+  [237] /usr/local/lib/~/webpack-dev-server/client/socket.js 856 bytes {1} [built]
+  [238] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/entry.js 244 bytes {1} [built]
+  [239] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/event/close.js 295 bytes {1} [built]
+  [240] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/event/trans-message.js 292 bytes {1} [built]
+  [241] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/facade.js 723 bytes {1} [built]
+  [242] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/iframe-bootstrap.js 2.9 kB {1} [built]
+  [243] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/info-iframe.js 1.52 kB {1} [built]
+  [244] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/info-receiver.js 2.22 kB {1} [built]
+  [245] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/main.js 11.9 kB {1} [built]
+  [246] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/shims.js 18.2 kB {1} [built]
+  [247] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport-list.js 613 bytes {1} [built]
+  [248] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/browser/websocket.js 172 bytes {1} [built]
+  [249] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/jsonp-polling.js 1.02 kB {1} [built]
+  [250] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/lib/buffered-sender.js 2.3 kB {1} [built]
+  [251] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/lib/polling.js 1.32 kB {1} [built]
+  [252] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/receiver/eventsource.js 1.58 kB {1} [built]
+  [253] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/receiver/htmlfile.js 2.2 kB {1} [built]
+  [254] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/receiver/jsonp.js 5.57 kB {1} [built]
+  [255] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/sender/jsonp.js 2.46 kB {1} [built]
+  [256] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/sender/xhr-fake.js 456 bytes {1} [built]
+  [257] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/websocket.js 2.71 kB {1} [built]
+  [258] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/xdr-polling.js 712 bytes {1} [built]
+  [259] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/transport/xhr-streaming.js 1.25 kB {1} [built]
+  [260] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/browser-crypto.js 438 bytes {1} [built]
+  [261] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/escape.js 2.31 kB {1} [built]
+  [262] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/log.js 450 bytes {1} [built]
+  [263] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/lib/utils/transport.js 1.35 kB {1} [built]
+  [264] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/debug/debug.js 4.2 kB {1} [built]
+  [265] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/debug/~/ms/index.js 2.72 kB {1} [built]
+  [266] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/url-parse/lolcation.js 1.58 kB {1} [built]
+  [267] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/url-parse/~/querystringify/index.js 1.3 kB {1} [built]
+  [268] /usr/local/lib/~/webpack-dev-server/~/sockjs-client/~/url-parse/~/requires-port/index.js 753 bytes {1} [built]
+  [269] /usr/local/lib/~/webpack-dev-server/~/strip-ansi/index.js 161 bytes {1} [built]
+  [270] /usr/local/lib/~/webpack-dev-server/~/strip-ansi/~/ansi-regex/index.js 135 bytes {1} [built]
+  [271] (webpack)/buildin/amd-options.js 42 bytes {1} [built]
+  [272] (webpack)/~/node-libs-browser/~/url/~/punycode/punycode.js 14.6 kB {1} [built]
+  [273] (webpack)/~/node-libs-browser/~/url/~/querystring/decode.js 2.4 kB {1} [built]
+  [274] (webpack)/~/node-libs-browser/~/url/~/querystring/encode.js 2.09 kB {1} [built]
+  [275] (webpack)/~/node-libs-browser/~/url/~/querystring/index.js 127 bytes {1} [built]
+  [276] (webpack)/~/node-libs-browser/~/url/url.js 22.3 kB {1} [built]
+
+ERROR in ./~/react-toolbox/lib/card/theme.scss
+Module build failed: ModuleBuildError: Module build failed: 
+@import "../colors";
+^
+      File to import not found or unreadable: theme/_config.scss
+Parent style sheet: stdin
+      in /home/ilana/git/react-test/node_modules/react-toolbox/lib/card/theme.scss (line 1, column 1)
+    at DependenciesBlock.onModuleBuildFailed (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:315:19)
+    at nextLoader (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:270:31)
+    at /usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:292:15
+    at context.callback (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:148:14)
+    at Object.onRender (/home/ilana/git/react-test/node_modules/sass-loader/index.js:273:13)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:2414:31)
+    at apply (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:40:25)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:76:12)
+    at Object.callback (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:988:16)
+    at options.error (/home/ilana/git/react-test/node_modules/node-sass/lib/index.js:280:32)
+ @ ./~/react-toolbox/lib/card/index.js 26:13-36
+
+ERROR in ./~/react-toolbox/lib/avatar/theme.scss
+Module build failed: ModuleBuildError: Module build failed: 
+@import "../colors";
+^
+      File to import not found or unreadable: theme/_config.scss
+Parent style sheet: stdin
+      in /home/ilana/git/react-test/node_modules/react-toolbox/lib/avatar/theme.scss (line 1, column 1)
+    at DependenciesBlock.onModuleBuildFailed (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:315:19)
+    at nextLoader (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:270:31)
+    at /usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:292:15
+    at context.callback (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:148:14)
+    at Object.onRender (/home/ilana/git/react-test/node_modules/sass-loader/index.js:273:13)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:2414:31)
+    at apply (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:40:25)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:76:12)
+    at Object.callback (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:988:16)
+    at options.error (/home/ilana/git/react-test/node_modules/node-sass/lib/index.js:280:32)
+ @ ./~/react-toolbox/lib/avatar/index.js 18:13-36
+
+ERROR in ./~/css-loader?modules!./~/extract-text-webpack-plugin/loader.js?{"omit":1,"extract":true,"remove":true}!./~/style-loader!./~/css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./~/sass-loader!./~/flexboxgrid/dist/flexboxgrid.css
+Module build failed: ModuleBuildError: Module build failed: 
+.container-fluid,
+^
+      File to import not found or unreadable: theme/_config.scss
+Parent style sheet: stdin
+      in /home/ilana/git/react-test/node_modules/flexboxgrid/dist/flexboxgrid.css (line 1, column 1)
+    at DependenciesBlock.onModuleBuildFailed (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:315:19)
+    at nextLoader (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:270:31)
+    at /usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:292:15
+    at context.callback (/usr/local/lib/node_modules/webpack-dev-server/node_modules/webpack/node_modules/webpack-core/lib/NormalModuleMixin.js:148:14)
+    at Object.onRender (/home/ilana/git/react-test/node_modules/sass-loader/index.js:273:13)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:2414:31)
+    at apply (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:40:25)
+    at Object.<anonymous> (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:76:12)
+    at Object.callback (/home/ilana/git/react-test/node_modules/sass-loader/node_modules/async/dist/async.js:988:16)
+    at options.error (/home/ilana/git/react-test/node_modules/node-sass/lib/index.js:280:32)
+ @ ./~/flexboxgrid/dist/flexboxgrid.css 4:14-374 14:20-380
+Child extract-text-webpack-plugin:
+    
+    ERROR in ./~/css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./~/sass-loader!./~/react-toolbox/lib/card/theme.scss
+    Module build failed: 
+    @import "../colors";
+    ^
+          File to import not found or unreadable: theme/_config.scss
+    Parent style sheet: stdin
+          in /home/ilana/git/react-test/node_modules/react-toolbox/lib/card/theme.scss (line 1, column 1)
+Child extract-text-webpack-plugin:
+    
+    ERROR in ./~/css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./~/sass-loader!./~/react-toolbox/lib/avatar/theme.scss
+    Module build failed: 
+    @import "../colors";
+    ^
+          File to import not found or unreadable: theme/_config.scss
+    Parent style sheet: stdin
+          in /home/ilana/git/react-test/node_modules/react-toolbox/lib/avatar/theme.scss (line 1, column 1)
+Child extract-text-webpack-plugin:
+    
+    ERROR in ./~/css-loader?sourceMap&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./~/postcss-loader!./~/sass-loader!./~/flexboxgrid/dist/flexboxgrid.css
+    Module build failed: 
+    .container-fluid,
+    ^
+          File to import not found or unreadable: theme/_config.scss
+    Parent style sheet: stdin
+          in /home/ilana/git/react-test/node_modules/flexboxgrid/dist/flexboxgrid.css (line 1, column 1)
+webpack: bundle is now VALID.
