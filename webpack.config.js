@@ -49,7 +49,7 @@ var config =  {
     postcss: [autoprefixer],
     sassLoader: {
         data: '@import "theme/_config.scss";',
-        includePaths: [path.resolve(__dirname, '.')]
+        includePaths: [path.resolve(__dirname, './src/app')]
     },
     plugins: [
         new ExtractTextPlugin('bundle.css', { allChunks: true }),
