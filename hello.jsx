@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid, Row, Col} from 'react-flexbox-grid/lib/index';
 import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
+import AppBar from 'react-toolbox/lib/app_bar';
 
 class Hello extends React.Component {
 	// beds = [
@@ -20,7 +21,9 @@ class Hello extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Hello World why did this take so long</h1>
+				<AppBar relative flat >
+					ICUnitor V2
+				</AppBar>
 				<Grid>
 					<Row>
 						<Col xs={12} md={3}>
@@ -32,13 +35,53 @@ class Hello extends React.Component {
 								/>
 							</Card>
 						</Col>
-						<Col xs={12} md={3}>Hello, world!</Col>
-						<Col xs={12} md={3}>Hello, world!</Col>
+						<Col xs={12} md={3}>
+							<Card>
+								<CardTitle
+						    		avatar="https://placeimg.com/80/80/animals"
+									title="Avatar style title"
+									subtitle="Subtitle here"
+								/>
+							</Card>
+						</Col>
+						<Col xs={12} md={3}>
+							<Card>
+								<CardTitle
+						    		avatar="https://placeimg.com/80/80/animals"
+									title="Avatar style title"
+									subtitle="Subtitle here"
+								/>
+							</Card>
+						</Col>
 					</Row>
 					<Row>
-						<Col xs={12} md={3}>Hello, world!</Col>
-						<Col xs={12} md={3}>Hello, world!</Col>
-						<Col xs={12} md={3}>Hello, world!</Col>
+						<Col xs={12} md={3}>
+							<Card>
+								<CardTitle
+						    		avatar="https://placeimg.com/80/80/animals"
+									title="Avatar style title"
+									subtitle="Subtitle here"
+								/>
+							</Card>
+						</Col>
+						<Col xs={12} md={3}>
+							<Card>
+								<CardTitle
+						    		avatar="https://placeimg.com/80/80/animals"
+									title="Avatar style title"
+									subtitle="Subtitle here"
+								/>
+							</Card>
+						</Col>
+						<Col xs={12} md={3}>
+							<Card>
+								<CardTitle
+						    		avatar="https://placeimg.com/80/80/animals"
+									title="Avatar style title"
+									subtitle="Subtitle here"
+								/>
+							</Card>
+						</Col>
 					</Row>
 				</Grid>
 			</div>

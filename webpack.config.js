@@ -12,7 +12,6 @@ var config =  {
     context: __dirname,
     devtool: 'inline-source-map',
     entry: [
-        'webpack-hot-middleware/client',
         "./main.js"
     ],
     output: {
@@ -63,4 +62,4 @@ var config =  {
     ]
 }
 
-module.exports = config
+module.exports = config;
