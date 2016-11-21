@@ -3,4 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'react-toolbox/lib/commons.scss'; 
 
-ReactDOM.render(<Hello/>, document.getElementById('main'));
+import store from './redux/create-store.js';
+
+ReactDOM.render(<Hello store={store} />, document.getElementById('main'));
